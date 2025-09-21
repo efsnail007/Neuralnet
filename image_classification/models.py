@@ -1,5 +1,6 @@
-from bert_classifier.models import Task
 from django.db import models
+
+from bert_classifier.models import Task
 
 
 class Image(models.Model):
